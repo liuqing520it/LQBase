@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LQBase_Example' do
+  pod 'LQBase', :path => '../'
+
+  target 'LQBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
