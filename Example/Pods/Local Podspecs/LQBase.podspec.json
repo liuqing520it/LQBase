@@ -1,0 +1,22 @@
+{
+  "name": "LQBase",
+  "version": "0.1.0",
+  "summary": "LQBase.",
+  "description": "TODO: 一些分类,网络封装及工具类",
+  "homepage": "https://github.com/liuqing520it/LQBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuqing520it": "330663384@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:liuqing520it/LQBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LQBase/Classes/**/*"
+}
