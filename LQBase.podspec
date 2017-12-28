@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/liuqing520it/LQBase'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'liuqing520it' => '330663384@qq.com' }
-    s.source           = { :git => 'git@github.com:liuqing520it/LQBase.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/liuqing520it/LQBase.git', :tag => s.version.to_s }
     s.ios.deployment_target = '9.0'
     s.source_files = 'LQBase/Classes/**/*'
     

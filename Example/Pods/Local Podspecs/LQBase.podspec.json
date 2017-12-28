@@ -12,7 +12,7 @@
     "liuqing520it": "330663384@qq.com"
   },
   "source": {
-    "git": "git@github.com:liuqing520it/LQBase.git",
+    "git": "https://github.com/liuqing520it/LQBase.git",
     "tag": "0.1.0"
   },
   "platforms": {
