@@ -22,7 +22,7 @@ pod 'LQBase'
 
 ## Author
 
-ios330663384, liuqing@qianjiangcloud.com
+liuqing, 330663384@qq.com
 
 ## License
 
