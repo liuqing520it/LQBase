@@ -11,7 +11,17 @@ Pod::Spec.new do |s|
     s.author           = { 'liuqing520it' => '330663384@qq.com' }
     s.source           = { :git => 'https://github.com/liuqing520it/LQBase.git', :tag => s.version.to_s }
     s.ios.deployment_target = '9.0'
-    s.source_files = 'LQBase/Classes/**/*'
+    #s.source_files = 'LQBase/Classes/**/*'
+    
+    s.subspec 'Category' do |c|
+        #c.dependency
+        c.source_files = 'LQBase/Classes/Category/*'
+    end
+    
+    s.subspec 'Network' do |n|
+        n.source_files = 'LQBase/Classes/Network/*'
+        n.dependency 'Alamofire'
+    end
     
     # s.resource_bundles = {
     #   'LQBase' => ['LQBase/Assets/*.png']
@@ -19,6 +29,6 @@ Pod::Spec.new do |s|
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
-    # s.dependency 'AFNetworking', '~> 2.3'
+    
 end
 

@@ -18,5 +18,19 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LQBase/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "LQBase/Classes/Category/*"
+    },
+    {
+      "name": "Network",
+      "source_files": "LQBase/Classes/Network/*",
+      "dependencies": {
+        "Alamofire": [
+
+        ]
+      }
+    }
+  ]
 }
