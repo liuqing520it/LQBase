@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     s.subspec 'Network' do |n|
         n.source_files = 'LQBase/Classes/Network/*'
         n.dependency 'Alamofire'
-        n.dependency 'KingFisher'
+        n.dependency 'Kingfisher' 
     end
     
     # s.resource_bundles = {
