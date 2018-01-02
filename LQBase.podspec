@@ -5,11 +5,11 @@ Pod::Spec.new do |s|
     s.description      = <<-DESC
     TODO: 一些分类,网络封装及工具类
     DESC
-    
     s.homepage         = 'https://github.com/liuqing520it/LQBase'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'liuqing520it' => '330663384@qq.com' }
     s.source           = { :git => 'https://github.com/liuqing520it/LQBase.git', :tag => s.version.to_s }
+    s.platform = :ios, '9.0'
     s.ios.deployment_target = '9.0'
     #s.source_files = 'LQBase/Classes/**/*'
     
@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
     s.subspec 'Network' do |n|
         n.source_files = 'LQBase/Classes/Network/*'
         n.dependency 'Alamofire'
+        n.dependency 'KingFisher'
     end
     
     # s.resource_bundles = {

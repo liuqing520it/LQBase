@@ -10,6 +10,11 @@ import UIKit
 
 extension UIImage{
     
+    
+    /// 同过给定一个颜色产生一张图片
+    ///
+    /// - Parameter color: 颜色
+    /// - Returns: 图片
     class func imageWithColor(color : UIColor) -> UIImage{
         
         let rect = CGRect(x: 0, y: 0, width: 1, height: 1)
@@ -29,7 +34,10 @@ extension UIImage{
         return image!
     }
     
-    //圆角
+    
+    /// 图片圆角
+    /// 避免使用layer.cornerRadius 产生离屏渲染
+    /// - Returns: 返回一个带圆角的图片
     func circleImage() -> UIImage{
         UIGraphicsBeginImageContext(self.size)
         let ctx = UIGraphicsGetCurrentContext()
@@ -41,8 +49,6 @@ extension UIImage{
         UIGraphicsEndImageContext()
         return image!
     }
-    
-    
 }
 
 
