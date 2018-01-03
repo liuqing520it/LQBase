@@ -2,8 +2,10 @@ PODS:
   - Alamofire (4.6.0)
   - Kingfisher (4.6.1)
   - LQBase (0.1.0):
+    - LQBase/Base (= 0.1.0)
     - LQBase/Category (= 0.1.0)
     - LQBase/Network (= 0.1.0)
+  - LQBase/Base (0.1.0)
   - LQBase/Category (0.1.0)
   - LQBase/Network (0.1.0):
     - Alamofire
@@ -19,7 +21,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
-  LQBase: 7c6e879752407296505d7446ff9225e8c61b5b0a
+  LQBase: a4cf657456c2fe7a8524d7759ba024bc9e08c432
 
 PODFILE CHECKSUM: d5861a985979b7a9622836f2c7e8a63023b5cc11
 

@@ -20,6 +20,10 @@
   },
   "subspecs": [
     {
+      "name": "Base",
+      "source_files": "LQBase/Classes/Base/*"
+    },
+    {
       "name": "Category",
       "source_files": "LQBase/Classes/Category/*"
     },
