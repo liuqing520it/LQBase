@@ -9,14 +9,10 @@
 import UIKit
 
 extension UIImage{
-    
-    
     /// 同过给定一个颜色产生一张图片
-    ///
     /// - Parameter color: 颜色
     /// - Returns: 图片
     class func imageWithColor(color : UIColor) -> UIImage{
-        
         let rect = CGRect(x: 0, y: 0, width: 1, height: 1)
         //开启上下文
         UIGraphicsBeginImageContext(rect.size)
@@ -33,7 +29,6 @@ extension UIImage{
         
         return image!
     }
-    
     
     /// 图片圆角
     /// 避免使用layer.cornerRadius 产生离屏渲染
