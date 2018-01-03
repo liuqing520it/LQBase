@@ -1,6 +1,6 @@
 {
   "name": "LQBase",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "LQBase.",
   "description": "TODO: 一些分类,网络封装及工具类",
   "homepage": "https://github.com/liuqing520it/LQBase",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/liuqing520it/LQBase.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -38,6 +38,10 @@
 
         ]
       }
+    },
+    {
+      "name": "Tools",
+      "source_files": "LQBase/Classes/Tools/*"
     }
   ]
 }

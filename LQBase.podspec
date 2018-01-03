@@ -25,5 +25,9 @@ Pod::Spec.new do |s|
         n.dependency 'Alamofire'
         n.dependency 'Kingfisher' 
     end
+    
+    s.subspec 'Tools' do |t|
+        t.source_files = 'LQBase/Classes/Tools/*'
+    end
 end
 
