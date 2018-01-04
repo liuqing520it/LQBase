@@ -23,7 +23,8 @@ Pod::Spec.new do |s|
     s.subspec 'Network' do |n|
         n.source_files = 'LQBase/Classes/Network/*'
         n.dependency 'Alamofire'
-        n.dependency 'Kingfisher' 
+        n.dependency 'Kingfisher'
+        n.dependency 'LQBase/Category' #由于Network 里用到了base里的代码
     end
     
     s.subspec 'Tools' do |t|
