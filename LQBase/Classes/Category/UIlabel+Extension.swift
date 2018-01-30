@@ -10,7 +10,11 @@ import UIKit
 
 extension UILabel {
     
-    convenience init(title : String? = nil, titleColor : UIColor, textFont : UIFont = .systemFont(ofSize: 13), numberOfLine: Int = 1 , alignment : NSTextAlignment = .center) {
+    convenience init(title : String? = nil,
+                titleColor : UIColor,
+                  textFont : UIFont = .systemFont(ofSize: 13),
+              numberOfLine : Int = 1 ,
+                 alignment : NSTextAlignment = .center) {
         self.init()
         if let textTitle = title{
             text = textTitle
@@ -21,5 +25,4 @@ extension UILabel {
         textAlignment = alignment
         sizeToFit()
     }
-    
 }

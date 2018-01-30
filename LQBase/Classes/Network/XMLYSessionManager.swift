@@ -15,7 +15,7 @@ enum RequestType : Int {
 
 class XMLYSessionManager: NSObject {
     
-    func request(requestType : RequestType,
+     func request(requestType : RequestType,
                       urlStr : String,
                    parameter : [String : Any],
                    resultBlock : @escaping (_ responseObject : Any? , _ error : Error?)->()){
@@ -44,36 +44,5 @@ class XMLYSessionManager: NSObject {
                 }
             })
         }
-        
     }
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

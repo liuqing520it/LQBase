@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/liuqing520it/LQBase.git', :tag => s.version.to_s }
     s.platform = :ios, '9.0'
     s.ios.deployment_target = '9.0'
-    
+    #这里分四个子类 根据项目需要 安装对应的 subspec 避免安装多余无用的subspec pod 'LQBase/Category'
     s.subspec 'Base' do |b|
         b.source_files = 'LQBase/Classes/Base/*'
     end

@@ -46,18 +46,3 @@ extension UIImage{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

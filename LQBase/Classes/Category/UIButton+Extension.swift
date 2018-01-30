@@ -38,8 +38,7 @@ extension UIButton {
                      titleSelectedColor : UIColor = UIColor.clear,
                      imageName:String? = nil,
                      selectedImageName:String? = nil,
-                     backgroundImage:String? = nil
-        ) {
+                     backgroundImage:String? = nil) {
         self.init()
         setTitle(normalTitle, for: .normal)
         setTitleColor(titleNormalColor, for: .normal)
